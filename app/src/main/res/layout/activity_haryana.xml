@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_hp"
+    tools:context=".PunjabActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HARYANA"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btn_fast_food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAST FOOD"
+                android:textAllCaps="false"
+                android:background="?attr/selectableItemBackground"
+                android:textColor="@android:color/black"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/btn_sweet_dishes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SWEET DISHES"
+                android:textAllCaps="false"
+                android:background="?attr/selectableItemBackground"
+                android:textColor="@android:color/black"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/btn_drinks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DRINKS"
+                android:textAllCaps="false"
+                android:background="?attr/selectableItemBackground"
+                android:textColor="@android:color/black"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

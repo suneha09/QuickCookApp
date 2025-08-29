@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".about_appActivity"
+            android:exported="false" />
+        <activity
+            android:name=".termsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".privacyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sharbatebazooriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sundpanjiriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".singoriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sheermalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sheeraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".roatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pinniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".phirniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patandeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".meethechawalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".malpuaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ladooActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kheerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kesarpistakulfiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kashmirizardapulaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".jhangorekikheerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".jalebiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gulgulaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gulabjamunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gujiyaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ghevarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".boondikameethaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".besankeladooActivity"
+            android:exported="false" />
+        <activity
+            android:name=".barfiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".balushahiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".balmithaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bakarkhaniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".arsaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".alsikipinniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".akhrotihalwaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aatekahalwaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".butttermilkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".amla_juiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bael_sharbatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kahwaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kaphal_juiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".babri_beoulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lugdiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".seabuck_thornActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chaangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kesar_pista_milkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".jal_jeeraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".papaya_juiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".buransh_juiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kesar_milkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".badam_milkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".noonchaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".thandaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kachchilassiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chaachActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lassiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitychole_bhatureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gulguleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".phaanuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bhattchutneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aloogutkeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".baadiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bhang_ki_chutneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kafuliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kaladi_kulchaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kachalu_chaatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pani_puriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".babruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kullu_troutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sidduActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bheyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tudkiya_bhathActivity"
+            android:exported="false" />
+        <activity
+            android:name=".himachali_dhaamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".madraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rajma_chawalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pakorasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".paranthasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".butter_chickenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Amritsari_naanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chole_kulcheActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gol_gappeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".samosaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pav_bhajiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chole_bhatureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HimachaldrinksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HimachalsweetdishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HimachalfastfoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UKdrinksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UKsweetdishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UKfastfoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HaryanadrinksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HaryanasweetdishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HaryanafastfoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JammudrinksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JammusweetdishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JammufastfoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabdrinksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabsweetdishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabfastfoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FDrinksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FSweetDishesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FFastFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SliderAdapterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slideradapterActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".UkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JammuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HaryanaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HimachalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
